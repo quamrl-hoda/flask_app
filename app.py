@@ -3,7 +3,7 @@ from pymongo import MongoClient
 from flask_bcrypt import Bcrypt
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key'  # Replace with your secret key for session management
+app.secret_key = "" # Replace with your secret key for session management
 
 # Initialize Bcrypt for password hashing
 bcrypt = Bcrypt(app)
